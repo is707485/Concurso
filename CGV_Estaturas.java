@@ -17,6 +17,7 @@ public class Sesion5 {
 				array[p] = array[min];
 				array[min] = tmp;
 				mov += 3;
+				System.out.println("Alumno salido: "+array[p]);
 			}
 		}
 	}
