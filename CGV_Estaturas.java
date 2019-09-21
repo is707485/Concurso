@@ -1,4 +1,4 @@
-public class Sesion5 {
+public class  CGV_Estaturas{
 	static int cmp, mov;
 
 	public static void selection(int[] array) {
