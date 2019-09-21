@@ -1,26 +1,5 @@
 public class  CGV_Estaturas{
-	static int cmp, mov;
 
-	public static void selection(int[] array) {
-		int min = 0, tmp = 0;
-		cmp = 0;
-		mov = 0;
-		for (int p = 0; p < array.length; p++) {
-			min = p;
-			for (int i = p + 1; i < array.length; i++) {
-				if (array[i] < array[min])
-					min = i;
-				cmp++;
-			}
-			if (p != min) {
-				tmp = array[p];
-				array[p] = array[min];
-				array[min] = tmp;
-				mov += 3;
-				System.out.println("Alumno salido: "+array[p]);
-			}
-		}
-	}
 
 	public static void main(String[] args) {
 		int array1 []= {1,0,2};
