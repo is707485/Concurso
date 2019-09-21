@@ -28,7 +28,7 @@ public class Problemas {
 		int delta = 1;
 		while(delta < array.length) delta = 3 * delta + 1;
 		delta /= 3;
-		//		delta = 1;  Degradar Shell a Inserción
+		//		delta = 1;  Degradar Shell a InserciÃ³n
 		while(delta >= 1) {
 			for(int start = 0; start < delta; start ++) {
 				insertion(array, delta, start);		
